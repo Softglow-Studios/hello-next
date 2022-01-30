@@ -19,6 +19,6 @@ export default () => {
   if (!data) return <p>No data</p>
 
   return (
-    <p>data</p>
+    <p>{data}</p>
   )
 }
