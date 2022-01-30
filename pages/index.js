@@ -15,7 +15,7 @@ export default () => {
       })
   }, [])
 
-  if (isLoading) return <p>Loading...</p>
+  if (loading) return <p>Loading...</p>
   if (!data) return <p>No data</p>
 
   return (
