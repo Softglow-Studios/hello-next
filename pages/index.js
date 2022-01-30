@@ -20,7 +20,7 @@ export default () => {
 
   return (
     <div>
-      <h1># Posts: {data.count}</h1>
+      <h1># Posts: {data.size}</h1>
     </div>
   )
 }
