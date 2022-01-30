@@ -19,8 +19,6 @@ export default () => {
   if (!data) return <p>No data</p>
 
   return (
-    <div>
-      <h1># Posts: {data.size}</h1>
-    </div>
+    <p>data</p>
   )
 }
